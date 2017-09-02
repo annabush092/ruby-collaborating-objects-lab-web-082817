@@ -20,6 +20,8 @@ class Song
     #associate the song with an Artist
     new_song.artist = Artist.find_or_create_by_name(artist_from_file)
     new_song.artist.add_song(new_song)
+
+    #returns the new song instance
     new_song
   end
 

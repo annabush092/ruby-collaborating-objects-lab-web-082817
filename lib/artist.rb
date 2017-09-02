@@ -29,7 +29,6 @@ class Artist
   #adds a song to the artist's collection
   def add_song(song_instance)
     songs << song_instance
-    # song_instance.artist = self
   end
 
   #prints songs that belong to the artist
